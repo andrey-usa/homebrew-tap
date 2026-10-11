@@ -7,22 +7,22 @@ class Compara < Formula
   on_macos do
     on_intel do
       url "https://github.com/andrey-usa/compara/releases/download/v0.5.0/compara-x86_64-apple-darwin.tar.gz"
-      sha256 "1b8b3fa3eb0dbe3bf3fd02bf04a4b48b082bfd9e60ebf36fcf6b093c2945c104"
+      sha256 "46dc976b85283887e3a548ed4ad483918bd4992642c1aba97a78438c5d2f72db"
     end
     on_arm do
       url "https://github.com/andrey-usa/compara/releases/download/v0.5.0/compara-aarch64-apple-darwin.tar.gz"
-      sha256 "8bb901b3fd23a1e37378e3b7f00c7025faf552bf8e9c1f4845b04a96218eb526"
+      sha256 "21e7b52236273ac531773948d01f6b832407c43ae90838e88c432446e4855010"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andrey-usa/compara/releases/download/v0.5.0/compara-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "893efe7e6b190b02c994700cbfae0bf79929f7ddec1c873eb37c81ddcdb8aaf5"
+      sha256 "477e7e1b2568a1cde52c5d3749e673ea2149170e2ff3d1db505360ecc326bb3d"
     end
     on_arm do
       url "https://github.com/andrey-usa/compara/releases/download/v0.5.0/compara-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "73752c7b33f507181478d61a9e392dba4600a82fcfed2138cf142477f05d9951"
+      sha256 "086deddec79dbbdec8d80ff47c7c10e95a3310bee5e5cb65f2eb3d987de7de2a"
     end
   end
 
