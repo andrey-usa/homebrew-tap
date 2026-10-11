@@ -7,22 +7,22 @@ class Gruppera < Formula
   on_macos do
     on_intel do
       url "https://github.com/andrey-usa/gruppera/releases/download/v0.4.0/gruppera-x86_64-apple-darwin.tar.gz"
-      sha256 "5d39abf536f73d8a3cd54b19797e3b2cf10ab7104ee69583f15435fa9479088e"
+      sha256 "5daf01c67e612aaf31f8e981d9720d02bff0f094d32667e33c3eef493ded692e"
     end
     on_arm do
       url "https://github.com/andrey-usa/gruppera/releases/download/v0.4.0/gruppera-aarch64-apple-darwin.tar.gz"
-      sha256 "f84d7edc67a6bb5726c065975f5717d0fb96fe60b78ad5f55387a2cd2f20d5ab"
+      sha256 "0bcd60b657cc8816a3d54d0d1e0557d5c326a2d62b10cca4d45c254d9d8c2926"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andrey-usa/gruppera/releases/download/v0.4.0/gruppera-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e7b7679d36035c53b6d2840a07c10e05dac9f36eae1ed7e7097d7580df3d16a6"
+      sha256 "7c418f40af839937514fc21f854efc03c5e5d167f0fcb7bb9ad527863e02c377"
     end
     on_arm do
       url "https://github.com/andrey-usa/gruppera/releases/download/v0.4.0/gruppera-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8edaedcaa9ddd5044491e5c714bce301f11e60d231705294732e27525c4850c0"
+      sha256 "5c137bf87e4e594fc50eb5ea05f8f304af4834f8a7da192c57325002cf821316"
     end
   end
 
