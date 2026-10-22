@@ -1,28 +1,28 @@
 class Navigera < Formula
   desc "Drive headless Chrome from the shell, one command per step: a native Rust CDP CLI for AI agents (accessibility-tree refs, sessions, tabs, iframes, dialogs) plus a JSON-lines serve mode."
   homepage "https://github.com/andrey-usa/navigera"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.4.1/navigera-x86_64-apple-darwin.tar.gz"
-      sha256 "0aea18a092a82fb37abc1e290233c446bdec8bce596845407d9c7e1e0e6dfd61"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.5.0/navigera-x86_64-apple-darwin.tar.gz"
+      sha256 "9f3feed5bc744af3a772cbf2a9b1afa1ea0b40010b56482f32c49110295ed5c7"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.4.1/navigera-aarch64-apple-darwin.tar.gz"
-      sha256 "ffff723e31f04296e74cc18c04988662a02585075b9711d195db104816c8c8da"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.5.0/navigera-aarch64-apple-darwin.tar.gz"
+      sha256 "89be686d8b76b15eb1920012f7e1c25f667259e2fcebec234110d54690363638"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.4.1/navigera-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f54f6b448297c436c8c79c08c6f0dadb062cba6b58f2c9b9d8380f2f9f29d056"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.5.0/navigera-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2add221b00a782f3a8a885d6c5ce728ce9aded97851879e447251ce17878b10d"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.4.1/navigera-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "959bf92965f9a2f159f78da1a279dbda3d4c29076d55d4acdf3dc1a5750dae4e"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.5.0/navigera-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5e7e3b0d112e36f81b64a6e68acfcf9739944334b28d5e6e543f4a0a3485b490"
     end
   end
 
