@@ -7,22 +7,22 @@ class Navigera < Formula
   on_macos do
     on_intel do
       url "https://github.com/andrey-usa/navigera/releases/download/v0.6.2/navigera-x86_64-apple-darwin.tar.gz"
-      sha256 "d8faa6491771070e887b6feb2506772ccff1d0155b029261b7cf4b48fca0571e"
+      sha256 "f7f8d6dd0d07e4e7699dd0ae044b5eab6515e28382c2f83d79b3a7750e1df43d"
     end
     on_arm do
       url "https://github.com/andrey-usa/navigera/releases/download/v0.6.2/navigera-aarch64-apple-darwin.tar.gz"
-      sha256 "426b8533ee4def1ac15ce1f8c39495d1bffe2fb2424101a355536ab44f418214"
+      sha256 "cf7b400f61f6da18b180e2ed4cb2121c04e8632219821b0226b291593176205b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andrey-usa/navigera/releases/download/v0.6.2/navigera-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "364df878543e48c5777f547c43a32fc46e8c6581d626336bb441a806a5697af7"
+      sha256 "ef83d2aa788360d6e0f48f8160dd237b98139ef21f347ddbf946f61b98a29101"
     end
     on_arm do
       url "https://github.com/andrey-usa/navigera/releases/download/v0.6.2/navigera-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "63496d013615abcf6ae830dae9792268cd244b64a45a9b95ba501fa646590e9a"
+      sha256 "24e7432bfaafa885242b10438743e425c63a842efcff4b9ab646fd3efb7420ef"
     end
   end
 
