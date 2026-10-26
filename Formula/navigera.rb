@@ -1,28 +1,28 @@
 class Navigera < Formula
   desc "Drive headless Chrome from the shell, one command per step: a native Rust CDP CLI for AI agents (accessibility-tree refs, sessions, tabs, iframes, dialogs) plus a JSON-lines serve mode."
   homepage "https://github.com/andrey-usa/navigera"
-  version "0.6.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.0/navigera-x86_64-apple-darwin.tar.gz"
-      sha256 "5a8d36e09cce48e2a6890e5f173788451e043c65bc9994b170025e0a35af8a9c"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.1/navigera-x86_64-apple-darwin.tar.gz"
+      sha256 "984753d9717b81da951922a764647230ad933e42a969bcbdbbaa9518f6b4fe73"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.0/navigera-aarch64-apple-darwin.tar.gz"
-      sha256 "c9a0e767d7179c9d8258466e51ccf7bfdce84860ce29ae679693e29172d43836"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.1/navigera-aarch64-apple-darwin.tar.gz"
+      sha256 "95047c272749b6d2f76eaef67590d48a34b8114d4c8982f8a997eadcb766c82b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.0/navigera-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6a0772755cb3a0892db4dac97c5b6e6926800136dbdd3653fecd4d2dfac4b50b"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.1/navigera-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "7caf72c43f47f6e4e39ea312e3237183c98734079842caec208c935fa96d669f"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.0/navigera-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5793c2e827a7840a5f01ed2c25dd74825f489019fcdcf05c562860ec10bde7d5"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.1/navigera-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "374baf480b148a82a553d34591f6a88a948db907616d8db51e01a04a1588c8cf"
     end
   end
 
