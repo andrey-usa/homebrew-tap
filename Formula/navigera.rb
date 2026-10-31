@@ -1,28 +1,28 @@
 class Navigera < Formula
   desc "Drive headless Chrome from the shell, one command per step: a native Rust CDP CLI for AI agents (accessibility-tree refs, sessions, tabs, iframes, dialogs) plus a JSON-lines serve mode."
   homepage "https://github.com/andrey-usa/navigera"
-  version "0.6.4"
+  version "0.6.5"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.4/navigera-x86_64-apple-darwin.tar.gz"
-      sha256 "722f65ff746947a3cb5efff2073a69804704ed30b79bd4ba60717f4ad5c9c780"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.5/navigera-x86_64-apple-darwin.tar.gz"
+      sha256 "eb31bea02cdc479349303ed29d0b102edfe06064fd1ff6dc768c4f7357ce8c3b"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.4/navigera-aarch64-apple-darwin.tar.gz"
-      sha256 "67c5fae55b81c907c5f6f708ebbed2e1aa876c66f76354f2ee2775c81288930d"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.5/navigera-aarch64-apple-darwin.tar.gz"
+      sha256 "b24e8fe5111a6c0fcc6872c667e965859eb52743865f5f953e531f35e25e64af"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.4/navigera-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7aabdd622a9af851c3ee02d27cdfeed59c640b9c3109d877f5605640b3c99497"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.5/navigera-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "7364573908da1b98bf6b277cc27466c1439fbda6cd3c9281e17dae8520e07b1e"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.4/navigera-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f9728a95fed0d7c5f3de876904e655e8346ce58ce7266a669d1a71c577a23d35"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.6.5/navigera-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "afa823e74d297142aea9cd686cd5a153d4cbdc1eabcbac0e96c95cb9b7636a7f"
     end
   end
 
