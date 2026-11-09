@@ -1,28 +1,28 @@
 class Navigera < Formula
   desc "Drive headless Chrome and Electron apps from the shell, one command per step: a native Rust CDP CLI for AI agents (accessibility-tree refs, sessions, tabs, iframes, dialogs) plus a JSON-lines serve mode."
   homepage "https://github.com/andrey-usa/navigera"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.0/navigera-x86_64-apple-darwin.tar.gz"
-      sha256 "ab02ab38c8758983b7c0976f5cd6fe2b51a201eaecd5dcf4063acdb17c694650"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.1/navigera-x86_64-apple-darwin.tar.gz"
+      sha256 "afe1b3f699a9ce0a0dcbf97b4569d97bb718bd9aa712527ffee0fc590cf2f135"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.0/navigera-aarch64-apple-darwin.tar.gz"
-      sha256 "5a0dcde7da8674bebe6314db37b120426ff03d5ac3f730a21e22580fce4a95ae"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.1/navigera-aarch64-apple-darwin.tar.gz"
+      sha256 "72485159cbe5a6958e5cda7a5ef88ae041ee0d423848eeb953a513a98fe36bea"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.0/navigera-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "85739c89ff6b074fa43b96b075d084bdb409b2b59bd3575afb45aa73241e7628"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.1/navigera-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b6989a3dde6b2ae89301cc0973ee30a0fe72c9eceb16158dc4d09a79879f9750"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.0/navigera-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "91c5b789c6cf1b52534649f837b8f2597d182f46c68d60da6573010e84b61c8a"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.1/navigera-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1245d909671021f858f83a1e8fee268a679239953968842bc7284f0c62acecd8"
     end
   end
 
