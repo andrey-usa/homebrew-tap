@@ -1,28 +1,28 @@
 class Compara < Formula
   desc "Compare two tables (CSV, NDJSON, Parquet) on a composite key: counts, per-column statistics and a self-contained HTML report."
-  homepage "https://github.com/andrey-usa/compara"
-  version "0.6.0"
+  homepage "https://andrey-usa.github.io/compara/"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrey-usa/compara/releases/download/v0.6.0/compara-x86_64-apple-darwin.tar.gz"
-      sha256 "55cbca4a49a5572f2c3474469c4266a55c10ef0325eef26146a6130f22f3a54d"
+      url "https://github.com/andrey-usa/compara/releases/download/v0.6.1/compara-x86_64-apple-darwin.tar.gz"
+      sha256 "32b62cac46eb3da2ba32a7c5e2208a32776a69b16131cd1e6ce10ea1f3eeb8a3"
     end
     on_arm do
-      url "https://github.com/andrey-usa/compara/releases/download/v0.6.0/compara-aarch64-apple-darwin.tar.gz"
-      sha256 "5ad1b24fe73998d6b1f6b58ef91dffd2c5238cba7df7c359d85ebe3ce5c1af20"
+      url "https://github.com/andrey-usa/compara/releases/download/v0.6.1/compara-aarch64-apple-darwin.tar.gz"
+      sha256 "67474c4c33499b4f6aeea1a7673497d739d1ef806485b2f42cf925a8d27bc596"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andrey-usa/compara/releases/download/v0.6.0/compara-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "16961fd53c1bb6701f604899f9c0ae5325762a7176056d433d892f8318c1ca37"
+      url "https://github.com/andrey-usa/compara/releases/download/v0.6.1/compara-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "37bc5225c4457e94cf81a165c619060fdbb5ecbd6b0e52b3b3fb0d2bfe9c1d63"
     end
     on_arm do
-      url "https://github.com/andrey-usa/compara/releases/download/v0.6.0/compara-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9c3ff338315a93632793acf0926222396588ab82cc4939992297cb03718fc106"
+      url "https://github.com/andrey-usa/compara/releases/download/v0.6.1/compara-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "438030a8d57d3c0627111ef084cc86bed2765ffa8b2b8802058f519909321d11"
     end
   end
 
