@@ -1,28 +1,28 @@
 class Navigera < Formula
   desc "Drive headless Chrome and Electron apps from the shell, one command per step: a native Rust CDP CLI for AI agents (accessibility-tree refs, sessions, tabs, iframes, dialogs) plus a JSON-lines serve mode."
-  homepage "https://github.com/andrey-usa/navigera"
-  version "0.10.1"
+  homepage "https://andrey-usa.github.io/navigera/"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.1/navigera-x86_64-apple-darwin.tar.gz"
-      sha256 "afe1b3f699a9ce0a0dcbf97b4569d97bb718bd9aa712527ffee0fc590cf2f135"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.11.0/navigera-x86_64-apple-darwin.tar.gz"
+      sha256 "1cbae9e1a47a3b9f527b736e74919d8ea5aaff91c991cad5efd9878d150eca17"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.1/navigera-aarch64-apple-darwin.tar.gz"
-      sha256 "72485159cbe5a6958e5cda7a5ef88ae041ee0d423848eeb953a513a98fe36bea"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.11.0/navigera-aarch64-apple-darwin.tar.gz"
+      sha256 "11692f7f935439a5a45b084d0e01f076dd35be4e41ab2544f907f9275a658087"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.1/navigera-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b6989a3dde6b2ae89301cc0973ee30a0fe72c9eceb16158dc4d09a79879f9750"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.11.0/navigera-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8505c399a6d5a21c8901143e85a302b7e24f8286e8d87caf1e673e92aa8b5c6d"
     end
     on_arm do
-      url "https://github.com/andrey-usa/navigera/releases/download/v0.10.1/navigera-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1245d909671021f858f83a1e8fee268a679239953968842bc7284f0c62acecd8"
+      url "https://github.com/andrey-usa/navigera/releases/download/v0.11.0/navigera-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9856be32277e77c9b9fb2d4ead663e3f9e2aa0daf43738a168b9c13529f8ea52"
     end
   end
 
