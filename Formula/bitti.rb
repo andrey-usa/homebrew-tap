@@ -1,28 +1,28 @@
 class Bitti < Formula
   desc "Plain-text web tests that run on real Chrome through navigera: one native binary, no Node."
   homepage "https://andrey-usa.github.io/bitti/"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andrey-usa/bitti/releases/download/v0.2.1/bitti-x86_64-apple-darwin.tar.gz"
-      sha256 "e619c749179276bd42f9d9d64a1ee612da295bd0b95c6ce6270326202697ee51"
+      url "https://github.com/andrey-usa/bitti/releases/download/v0.3.0/bitti-x86_64-apple-darwin.tar.gz"
+      sha256 "49f6c556ae928a14f288dc6c6b54e18b5af805261b9d029d4d74865aae05aded"
     end
     on_arm do
-      url "https://github.com/andrey-usa/bitti/releases/download/v0.2.1/bitti-aarch64-apple-darwin.tar.gz"
-      sha256 "2d9fc80bb7a676273d2ad998bef4e4deeed5e470e52ac9a36421e15b82d4cf15"
+      url "https://github.com/andrey-usa/bitti/releases/download/v0.3.0/bitti-aarch64-apple-darwin.tar.gz"
+      sha256 "1ddb8cfab12b7442f92fd9c1624f1e658e753c393c194587c44073548fac255a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andrey-usa/bitti/releases/download/v0.2.1/bitti-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "21779163d4211183374806533a7ab26c7999d27b796ff6497b756e8fdbcf2828"
+      url "https://github.com/andrey-usa/bitti/releases/download/v0.3.0/bitti-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "23e7d189278e4d1133ec1e0f36624f969c441d87b444c178b8192d03e86b7bae"
     end
     on_arm do
-      url "https://github.com/andrey-usa/bitti/releases/download/v0.2.1/bitti-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3a17489485008e63debe064b1c3d4eadd35bfe24f98cf1b8b667c69c9d81f29a"
+      url "https://github.com/andrey-usa/bitti/releases/download/v0.3.0/bitti-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "cd236c1a8aad3ec380e8566685f2df8ccdaac066aad50e1cf1db5144575d74c4"
     end
   end
 
